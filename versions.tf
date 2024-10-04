@@ -32,7 +32,4 @@ terraform {
       version = ">= 2.1"
     }
   }
-  provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-kubernetes-engine/v29.0.0"
-  }
 }
